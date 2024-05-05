@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Robotto",sans-serif;
+    scroll-behavior: smooth;
+}
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+}
+nav{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.nav-content ul{
+    display: flex;
+    gap: 20px;
+}
+nav ul li:hover{
+    border-bottom:2px solid yellow ;
+    transition: 0.3s ease-in-out;
+}
+nav ul li{
+    list-style: none;
+    font-size: 20px;
+    color: rgb(82, 81, 81);
+    transition: 0.3s ease-in-out;
+    border-bottom:2px solid transparent ;
+}
+.logo{
+    font-size: 20px;
+    font-weight:  bold;
+}
+ul i{
+    font-size: 24px;
+    color: black;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.hero-img img{
+    width: 100%;
+}
+.hero-content h1{
+    font-size: 30px;
+}
+span{
+    font-weight: lighter;
+}
+.hero-content{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+.hero-p{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.ftn-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.ftn-icons i{
+    font-size: 20px;
+}
+

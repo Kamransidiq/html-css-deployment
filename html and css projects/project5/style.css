@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Robotto",sans-serif;
+    height: 100%;
+}
+.navbar{
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.2);
+    padding: 10px;
+    top: 0;
+    position: sticky;
+    z-index: 50;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-icon i{
+    font-size: 32px;
+    font-weight: 900;
+}
+.hero-section{
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero-content span{
+    background-color: #149f39;
+    padding: 10px;
+    align-self: flex-start;
+}
+.hero-content h2{
+    font-size: 70px;
+    font-weight: 400;
+}
+.hero-content p{
+    color: rgb(50, 48, 48);
+}
+button:hover{
+ opacity: 0.8;
+ transition: 0.3s ease-in-out;
+}
+button{
+    align-self: flex-start;
+    padding: 10px 15px;
+    border: none;
+    transition: 0.3s ease-in-out;
+
+}
+.explore{
+    color: black;
+    background: #ffc066;
+}
+.card-container{
+    max-width: 1200px;
+    margin: 100px auto;
+ display: grid;
+ grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+ border-bottom: 1px solid #ccc;
+}
+.card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    transition: 0.2s ease-in-out;
+    margin-bottom: 30px;
+    
+}
+.card:hover{
+    box-shadow: 5px 5px 5px rgba(1, 1,1, 0.3);
+    transition: 0.2s ease-in-out;
+}
+.card-content h2{
+    font-size: 20px;
+}
+.card-content p{
+    color: rgb(50, 48, 48);
+}
+.hero-section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50PX;
+}
+.hcontent{
+    margin-bottom: 100px;
+}
+.menu{
+    background-color: #149f39;
+    padding: 10px;
+    align-self: flex-start;
+    color: white;
+
+}
+.grid{
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+    " I1 I1 I2 I3" 
+    "I1 I1 I2 I7"
+    "I6 I4 I5 I7";  
+    margin-bottom: 50px;
+}
+.grid-images1:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+.grid-images2:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+.grid-images3:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+.grid-images4:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+.grid-images5:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+.grid-images6:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+.grid-images7:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+.grid-images1{
+    grid-area: I1;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.grid-images2{
+    grid-area: I2;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.grid-images3{
+    grid-area: I3;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.grid-images4{
+    grid-area: I4;
+    transition: 0.3s ease-in-out;
+border-radius: 10px;
+overflow: hidden;
+}
+.grid-images5{
+    grid-area: I5;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.grid-images6{
+    grid-area: I6;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.grid-images7{
+    grid-area: I7;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    overflow: hidden;
+}
+footer{
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    background: #fff0db;
+}
+.ftn-content ul li{
+    list-style: none;
+    margin-bottom: 2px;
+    color: rgb(50, 48, 48);
+    font-size: 17px;
+}
+.ftn-content h2{
+    font-size: 25px;
+    padding: 10px 0;
+    color: gray;
+    
+}
+input{
+    padding: 5px 25px;
+    margin-bottom: 10px;
+}
+.ftn-content h3{
+    color: gray;
+    margin-bottom: 5px;
+}
+.ftn-icons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.icon{
+    font-size: 32px;
+}
+@media(max-width:486px){
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-img img{
+        width: 100%;
+        height: auto;
+
+    }
+    .grid img{
+        width: 100%;
+        height: auto;
+    }
+    .grid{
+        padding: 10px;
+    }
+}

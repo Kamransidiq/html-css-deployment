@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Robotto",sans-serif;
+    height: 100%;
+}
+header{
+    background: #270082;
+    
+    box-shadow: 5px 5px 5px rgba(1 ,1, 1, 0.2);
+}
+.navbar{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    top: 0;
+    position: sticky;
+}
+.logo{
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+}
+.navbar ul {
+display: flex;
+gap: 20px;
+}
+.navbar ul li:hover{
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in-out;
+}
+.navbar ul li{
+    list-style: none;
+    color: rgb(234, 222, 222);
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in-out;
+}
+a{
+    text-decoration: none;
+}
+.hero-section{
+    width: 100%;
+    background-image: url(music1.jpeg);
+    background-size:cover;
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.hero-content{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+place-items: center;
+color: white;
+gap: 25px;
+padding-top: 16%;;
+text-align: center;
+    
+}
+.hero-content h1{
+    font-size: 96px;
+    font-weight: 700;
+}
+.hero-content h2{
+    font-size: 32px;
+    font-weight: 600;
+}
+.hero-section1{
+    background: #281154;
+    min-height: 90%;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    gap: 20px;
+    color: white;
+
+}
+.hero-icon{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    gap: 5px;
+}
+.hero-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.hero-icon i {
+    font-size: 27px;
+}
+.hero-icon p{
+    font-size: 28px;
+    font-weight: 600;
+}
+.hero-cont h3{
+    font-size: 15px;
+}
+button:hover{
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+button{
+    align-self: center;
+    padding: 10px 15px;
+    border: none;
+    transition: 0.2s ease-in-out;
+    
+}
+.start{
+    background-color: red;
+    color: white;
+}
+.hero-cont p{
+    text-align: center;
+}
+.hero-section2{
+    
+    position: absolute;
+    top: 1150px;
+    align-items: center;
+    margin-left: 300px;
+}
+.hero-section3{
+    margin-top: 450px;
+}
+.container3{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+place-items: center;
+}
+.hero-cont3{
+    display: grid;
+    place-items: center;
+    gap: 50px;
+}
+.hero-cont3 p{
+    text-align: center;
+}
+.hero-img3{
+    margin: 50px 0;
+}
+.read{
+background-color:darkblue ;
+color: white;
+}
+.hero-section4{
+    background-image: url(h4.jpeg);
+    background-position: center;
+position: relative;
+background-size: cover;
+background-repeat: no-repeat;
+min-height: 100%;
+}
+.container4{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.h4-text{
+    display: grid;
+    place-items: center;
+    padding-top: 18%;
+    gap: 30px;
+    color: white;
+    text-align: center;
+}
+.hero-section5{
+    margin: 100px 0;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: black;
+    margin-bottom: 60px;
+}
+.card-content h2{
+    font-size: 20px;
+}
+.card-content p{
+    color: rgb(45, 44, 44);
+}
+.card-content button{
+    align-self: flex-start;
+}
+.radeem{
+    background-color: darkblue;
+    color: white;
+}
+.ftn-content{
+    color: white;
+}
+footer{
+    background: #1b0058;
+    padding: 20px;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ftn-content ul li{
+    list-style: none;
+    color:rgb(225, 225, 225)
+}
+.ftn-content h2{
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+    padding: 10px 0;
+}
+.footer2{
+    background-color: #270082;
+    padding: 20px;
+
+}
+.ftn-cont2{
+    font-size: 20px;
+    font-weight: 400;
+
+}
+@media(max-width:786px){
+    .hero-section{width: 100%;
+        height: auto;
+    }
+    .tablet img{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 50px;
+    }
+    .hero-section3 img{
+        width: 100%;
+        height: auto;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+@media(max-width:486px){
+    .hero-section{width: 100%;
+        height: auto;
+    }
+    .tablet img{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 50px;
+    }
+    .hero-section3 img{
+        width: 100%;
+        height: auto;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+.card-img img{
+    width: 100%;
+    height: auto;
+}
+}
